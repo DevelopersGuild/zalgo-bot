@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "botkit": "0.0.15"
+  }
+}
