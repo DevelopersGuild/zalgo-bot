@@ -1,9 +1,12 @@
 'use strict';
 
+// Replace empty string with API token;
+var API_TOKEN = '';
+
 var Botkit = require('botkit');
 var controller = Botkit.slackbot();
 var bot = controller.spawn({
-  token: 'xoxb-33061209089-XRKW6nzKVSSYKxgKGqQcJlTx'
+  token: API_TOKEN
 })
 bot.startRTM(function(err,bot,payload) {
   if (err) {
