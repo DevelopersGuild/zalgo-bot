@@ -1,7 +1,6 @@
 'use strict';
 
-// Replace empty string with API token;
-var API_TOKEN = '';
+var API_TOKEN = process.env.API_TOKEN;
 
 var Botkit = require('botkit');
 var controller = Botkit.slackbot();
